@@ -1,0 +1,2 @@
+Pawn;0;0;white
+Pawn;0;1;white 
