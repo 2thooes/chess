@@ -129,11 +129,13 @@
   <ItemGroup>
     <ClCompile Include="build.cpp" />
     <ClCompile Include="c.cpp" />
+    <ClCompile Include="Figure.cpp" />
     <ClCompile Include="length.cpp" />
     <ClCompile Include="setup.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="build.h" />
+    <ClInclude Include="Figure.h" />
     <ClInclude Include="length.h" />
     <ClInclude Include="setup.h" />
   </ItemGroup>
