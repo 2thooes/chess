@@ -127,18 +127,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bishop.cpp" />
     <ClCompile Include="build.cpp" />
     <ClCompile Include="c.cpp" />
     <ClCompile Include="Figure.cpp" />
+    <ClCompile Include="Horse.cpp" />
+    <ClCompile Include="King.cpp" />
     <ClCompile Include="length.cpp" />
     <ClCompile Include="Pawn.cpp" />
+    <ClCompile Include="Queen.cpp" />
+    <ClCompile Include="Rook.cpp" />
     <ClCompile Include="setup.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bishop.h" />
     <ClInclude Include="build.h" />
     <ClInclude Include="Figure.h" />
+    <ClInclude Include="Horse.h" />
+    <ClInclude Include="King.h" />
     <ClInclude Include="length.h" />
     <ClInclude Include="Pawn.h" />
+    <ClInclude Include="Queen.h" />
+    <ClInclude Include="Rook.h" />
     <ClInclude Include="setup.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

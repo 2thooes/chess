@@ -3,7 +3,7 @@
 #include "setup.h"
 #include "length.h"
 #include "Figure.h"
-//coded by hardkode mewing sigma male
+
 using namespace std;
 
 int main()
