@@ -7,7 +7,7 @@ using namespace std;
 class King :public Figure {
 public:
 
-	King(int x, int y, string color);
+	King(int x, int y, string color, char letter);
 
 	King();
 

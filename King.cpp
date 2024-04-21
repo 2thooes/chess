@@ -4,6 +4,6 @@
 
 using namespace std;
 
-King::King(int x, int y, string color) :Figure(x, y, color) {
+King::King(int x, int y, string color, char letter) :Figure(x, y, color,letter) {
 	cout << "new King" << endl;
 }

@@ -7,7 +7,7 @@ using namespace std;
 class Rook :public Figure {
 public:
 
-	Rook(int x, int y, string color);
+	Rook(int x, int y, string color, char letter);
 
 	Rook();
 

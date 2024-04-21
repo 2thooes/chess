@@ -7,7 +7,7 @@ using namespace std;
 class Pawn:public Figure{
 public:
 
-	Pawn(int x, int y, string color);
+	Pawn(int x, int y, string color, char letter);
 
 	Pawn();
 

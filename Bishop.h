@@ -7,7 +7,7 @@ using namespace std;
 class Bishop :public Figure {
 public:
 
-	Bishop(int x, int y, string color);
+	Bishop(int x, int y, string color, char letter);
 
 	Bishop();
 

@@ -15,21 +15,21 @@ string find_color(string str) { return str.substr(str.rfind(";") + 1, str.size()
 void build(string str, Figure* arr,int index)
 {
 	if (find_type(str) == "Pawn") {//coded by hardcode apostol
-		arr[index] = Pawn(find_x(str), find_y(str), find_color(str));
+		arr[index] = Pawn(find_x(str), find_y(str), find_color(str),str[0]);
 	}
 	if (find_type(str) == "Rook") {
-		arr[index] = Rook(find_x(str), find_y(str), find_color(str));
+		arr[index] = Rook(find_x(str), find_y(str), find_color(str), str[0]);
 	}
 	if (find_type(str) == "Horse") {
-		arr[index] = Horse(find_x(str), find_y(str), find_color(str));
+		arr[index] = Horse(find_x(str), find_y(str), find_color(str), str[0]);
 	}
 	if (find_type(str) == "Bishop") {
-		arr[index] = Bishop(find_x(str), find_y(str), find_color(str));
+		arr[index] = Bishop(find_x(str), find_y(str), find_color(str), str[0]);
 	}
 	if (find_type(str) == "Queen") {
-		arr[index] = Queen(find_x(str), find_y(str), find_color(str));
+		arr[index] = Queen(find_x(str), find_y(str), find_color(str), str[0]);
 	}
 	if (find_type(str) == "King") {
-		arr[index] = King(find_x(str), find_y(str), find_color(str));
+		arr[index] = King(find_x(str), find_y(str), find_color(str), str[0]);
 	}
 }

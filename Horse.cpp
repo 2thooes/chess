@@ -4,6 +4,6 @@
 
 using namespace std;
 
-Horse::Horse(int x, int y, string color) :Figure(x, y, color) {
+Horse::Horse(int x, int y, string color, char letter) :Figure(x, y, color,letter) {
 	cout << "new Horse" << endl;
 }

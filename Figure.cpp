@@ -4,10 +4,11 @@
 
 using namespace std;
 
-Figure::Figure(int x, int y, string color) {
+Figure::Figure(int x, int y, string color, char letter) {
 	this->x = x;
 	this->y = y;
 	this->color = color;
+	this->letter = letter;
 }
 
 Figure::Figure() {
@@ -21,6 +22,8 @@ int Figure::get_x() { return x; }
 int Figure::get_y() { return y; }
 
 string Figure::get_color() { return color; }
+
+char Figure::get_letter() { return letter; }
 
 void Figure::set_x(int new_x) { this->x = new_x; }
 

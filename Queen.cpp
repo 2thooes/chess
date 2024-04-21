@@ -4,6 +4,6 @@
 
 using namespace std;
 
-Queen::Queen(int x, int y, string color) :Figure(x, y, color) {
+Queen::Queen(int x, int y, string color, char letter) :Figure(x, y, color,letter) {
 	cout << "new Queen" << endl;
 }
