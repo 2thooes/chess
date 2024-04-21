@@ -1,3 +1,3 @@
 #pragma once
-//Figure arr[]
-void setup(int* arr);
+#include "Figure.h"
+void setup(Figure* arr);

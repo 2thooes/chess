@@ -3,10 +3,8 @@
 
 using namespace std;
 
-void build(string str, int* arr)
+void build(string str, Figure* arr)
 {
-	arr[0] = 1;
-	arr[1] = 2;
 	cout << str.substr(0, str.find(";"));
 
 }

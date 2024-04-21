@@ -14,7 +14,7 @@ string isopen(ifstream& file)
 	return("dont open!");
 }
 //Figure arr[]
-void setup(int* arr)
+void setup(Figure* arr)
 {
 	string setup_path = "setup.txt";
 	ifstream setup_file;

@@ -10,4 +10,10 @@ Figure::Figure(int x, int y, string color) {
 	this->color = color;
 }
 
+Figure::Figure() {
+	this->x = 0;
+	this->y = 0;
+	this->color = "";
+}
+
 

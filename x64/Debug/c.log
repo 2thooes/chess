@@ -1,2 +1,6 @@
-﻿  Figure.cpp
+﻿  build.cpp
+  c.cpp
+  Figure.cpp
+  setup.cpp
+  Создание кода...
   c.vcxproj -> F:\Programing\course\c\x64\Debug\c.exe
