@@ -1,6 +1,5 @@
-﻿  build.cpp
-  c.cpp
-  Figure.cpp
+﻿  Pawn.cpp
+  build.cpp
   setup.cpp
   Создание кода...
   c.vcxproj -> F:\Programing\course\c\x64\Debug\c.exe

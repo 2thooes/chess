@@ -16,6 +16,7 @@ string isopen(ifstream& file)
 //Figure arr[]
 void setup(Figure* arr)
 {
+	int index = 0;
 	string setup_path = "setup.txt";
 	ifstream setup_file;
 	setup_file.open(setup_path);
@@ -25,7 +26,8 @@ void setup(Figure* arr)
 	{
 		str = "";
 		setup_file >> str;
-		build(str, arr);
+		build(str, arr,index);
+		index++;
 	}
 	setup_file.close();
 }
