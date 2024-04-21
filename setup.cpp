@@ -3,7 +3,7 @@
 #include <fstream>
 #include "setup.h"
 #include "build.h"
-//#include "figure.h"
+
 using namespace std;
 
 string isopen(ifstream& file)
@@ -13,7 +13,7 @@ string isopen(ifstream& file)
 	}
 	return("dont open!");
 }
-//Figure arr[]
+
 void setup(Figure* arr)
 {
 	int index = 0;
