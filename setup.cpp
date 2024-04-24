@@ -6,7 +6,7 @@
 
 using namespace std;
 
-string isopen(ifstream& file)
+string isopen(ifstream& file)//Функциядля проверки открытия файла
 {
 	if (file.is_open()) {
 		return("open!");
@@ -14,7 +14,7 @@ string isopen(ifstream& file)
 	return("dont open!");
 }
 
-void setup(Figure* arr)
+void setup(Figure* arr)//Задача этой функции расчленить файл setup.txt на строки и передать их в build() функцию
 {
 	int index = 0;
 	string setup_path = "setup.txt";

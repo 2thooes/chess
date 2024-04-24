@@ -5,7 +5,7 @@
 using namespace std;
 
 
-
+//Функция для подсчета длины массива
 int length()
 {
 	int count = 0;

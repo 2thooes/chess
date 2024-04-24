@@ -3,6 +3,8 @@
 
 using namespace std;
 
+//Создана для обновления данных псоле изменений для корректного отображения
+//Также будет очень важна для просчета фигур
 void refresh(Figure* arr, int size, char board[8][8]) {
 
     for (int i = 0; i < 8; i++) {
@@ -23,6 +25,7 @@ void refresh(Figure* arr, int size, char board[8][8]) {
     }
 }
 
+//Фукция для вывода "доски". Не работает без refresh()
 void view(Figure* arr, int size, char board[8][8]) {
     refresh(arr, size, board);
     cout << "Доска на данный момент:" << endl;

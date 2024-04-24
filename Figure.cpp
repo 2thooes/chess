@@ -3,7 +3,7 @@
 #include "Figure.h"
 
 using namespace std;
-
+//Базовый клас, от которого все наследуется
 Figure::Figure(int x, int y, string color, char letter) {
 	this->x = x;
 	this->y = y;

@@ -2,7 +2,7 @@
 #include <string>
 
 using namespace std;
-
+//Базовый клас, от которого все наследуется
 class Figure{
 public:
 	Figure(int x, int y, string color,char letter);
