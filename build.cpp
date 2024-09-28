@@ -15,24 +15,24 @@ int find_y(string str) { return stoi(str.substr(str.find(";") + 3, str.find(";")
 string find_color(string str) { return str.substr(str.rfind(";") + 1, str.size()); }
 
 // Собственно задача тут из строки достать конкретную информацию и на ее основе создать обьект
-void build(string str, Figure* arr,int index)
+void build(string str, vector <Figure*>& arr,int index)
 {
 	if (find_type(str) == "Pawn") {//Нахардкодил
-		arr[index] = Pawn(find_x(str), find_y(str), find_color(str),str[0]);
+		arr.push_back(new Pawn(find_x(str), find_y(str), find_color(str),str[0]));
 	}
 	if (find_type(str) == "Rook") {
-		arr[index] = Rook(find_x(str), find_y(str), find_color(str), str[0]);
+		arr.push_back(new Rook(find_x(str), find_y(str), find_color(str), str[0]));
 	}
 	if (find_type(str) == "Horse") {
-		arr[index] = Horse(find_x(str), find_y(str), find_color(str), str[0]);
+		arr.push_back(new Horse(find_x(str), find_y(str), find_color(str), str[0]));
 	}
 	if (find_type(str) == "Bishop") {
-		arr[index] = Bishop(find_x(str), find_y(str), find_color(str), str[0]);
+		arr.push_back(new Bishop(find_x(str), find_y(str), find_color(str), str[0]));
 	}
 	if (find_type(str) == "Queen") {
-		arr[index] = Queen(find_x(str), find_y(str), find_color(str), str[0]);
+		arr.push_back(new Queen(find_x(str), find_y(str), find_color(str), str[0]));
 	}
 	if (find_type(str) == "King") {
-		arr[index] = King(find_x(str), find_y(str), find_color(str), str[0]);
+		arr.push_back(new King(find_x(str), find_y(str), find_color(str), str[0]));
 	}
 }

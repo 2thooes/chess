@@ -14,7 +14,7 @@ string isopen(ifstream& file)//Функциядля проверки открытия файла
 	return("dont open!");
 }
 
-void setup(Figure* arr)//Задача этой функции расчленить файл setup.txt на строки и передать их в build() функцию
+void setup(vector <Figure*>& arr)//Задача этой функции расчленить файл setup.txt на строки и передать их в build() функцию
 {
 	int index = 0;
 	string setup_path = "setup.txt";
@@ -29,5 +29,6 @@ void setup(Figure* arr)//Задача этой функции расчленить файл setup.txt на строки
 		build(str, arr,index);
 		index++;
 	}
+	
 	setup_file.close();
 }

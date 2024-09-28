@@ -1,3 +1,12 @@
-﻿  c.cpp
+﻿  turn.cpp
+F:\Programing\course\c\decode_x.h(3,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+F:\Programing\course\c\decode_y.h(3,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+F:\Programing\course\c\is_square_correct.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+F:\Programing\course\c\is_square_correct.h(3,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+F:\Programing\course\c\is_square_empty.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+F:\Programing\course\c\is_square_empty.h(3,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+F:\Programing\course\c\is_my_figure.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+F:\Programing\course\c\is_my_figure.h(3,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
 F:\Programing\course\c\view.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+F:\Programing\course\c\view.h(3,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
   c.vcxproj -> F:\Programing\course\c\x64\Debug\c.exe

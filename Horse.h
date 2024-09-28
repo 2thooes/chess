@@ -11,4 +11,6 @@ public:
 
 	Horse();
 
+	bool get_grid(vector <Figure*>& arr, int size, char board[8][8], string to_square) override;
+
 };

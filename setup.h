@@ -1,3 +1,4 @@
 #pragma once
+#include <vector>
 #include "Figure.h"
-void setup(Figure* arr);
+void setup(vector <Figure*>& arr);

@@ -130,27 +130,43 @@
     <ClCompile Include="Bishop.cpp" />
     <ClCompile Include="build.cpp" />
     <ClCompile Include="c.cpp" />
+    <ClCompile Include="decode_x.cpp" />
+    <ClCompile Include="decode_y.cpp" />
     <ClCompile Include="Figure.cpp" />
+    <ClCompile Include="Find_figure.cpp" />
     <ClCompile Include="Horse.cpp" />
+    <ClCompile Include="is_my_figure.cpp" />
+    <ClCompile Include="is_square_correct.cpp" />
+    <ClCompile Include="is_square_empty.cpp" />
     <ClCompile Include="King.cpp" />
     <ClCompile Include="length.cpp" />
     <ClCompile Include="Pawn.cpp" />
     <ClCompile Include="Queen.cpp" />
     <ClCompile Include="Rook.cpp" />
     <ClCompile Include="setup.cpp" />
+    <ClCompile Include="start_game.cpp" />
+    <ClCompile Include="turn.cpp" />
     <ClCompile Include="view.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bishop.h" />
     <ClInclude Include="build.h" />
+    <ClInclude Include="decode_x.h" />
+    <ClInclude Include="decode_y.h" />
     <ClInclude Include="Figure.h" />
+    <ClInclude Include="Find_figure.h" />
     <ClInclude Include="Horse.h" />
+    <ClInclude Include="is_my_figure.h" />
+    <ClInclude Include="is_square_correct.h" />
+    <ClInclude Include="is_square_empty.h" />
     <ClInclude Include="King.h" />
     <ClInclude Include="length.h" />
     <ClInclude Include="Pawn.h" />
     <ClInclude Include="Queen.h" />
     <ClInclude Include="Rook.h" />
     <ClInclude Include="setup.h" />
+    <ClInclude Include="start_game.h" />
+    <ClInclude Include="turn.h" />
     <ClInclude Include="view.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

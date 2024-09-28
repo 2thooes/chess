@@ -8,7 +8,7 @@ using namespace std;
 //тСМЙЖХЪ ДКЪ ОНДЯВЕРЮ ДКХМШ ЛЮЯЯХБЮ
 int length()
 {
-	int count = 0;
+	int count = -1;// пюгнапюрэяъ онвелс щрю усеремэ ме пюанрюер опх гмювемхх 0, унръ йнцдю ъ охяюк вепег дхмюлхвеяйхи люяяхб нмю пюанрюкю
 	string setup_path = "setup.txt";
 	ifstream setup_file;
 	setup_file.open(setup_path);

@@ -1,4 +1,5 @@
 #pragma once
+#include <vector>
 #include "Figure.h"
 #include "Pawn.h"
 #include "Rook.h"
@@ -7,4 +8,4 @@
 #include "Queen.h"
 #include "King.h"
 using namespace std;
-void build(string str, Figure* arr,int index);
+void build(string str, vector <Figure*>& arr,int index);

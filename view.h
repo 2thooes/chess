@@ -1,3 +1,6 @@
 #pragma once
 #include "Figure.h";
-void view(Figure* arr, int size, char board[8][8]);
+#include <vector>;
+void view(vector <Figure*>& arr, int size, char board[8][8]);
+
+void view(int board[8][8]);
